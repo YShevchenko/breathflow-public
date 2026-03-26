@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BreathFlow - Science-backed breathing. No subscription. No fluff.</title>
+    <style>
+        *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+        body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; color: #1a1a2e; background: #fafafa; line-height: 1.6; }
+        a { color: #4F46E5; text-decoration: none; }
+        a:hover { text-decoration: underline; }
+
+        .hero {
+            background: linear-gradient(135deg, #4F46E5 0%, #3730a3 100%);
+            color: #fff;
+            text-align: center;
+            padding: 80px 24px 64px;
+        }
+        .hero h1 { font-size: 2.8rem; font-weight: 700; letter-spacing: -0.5px; }
+        .hero .tagline { font-size: 1.25rem; margin-top: 12px; opacity: 0.9; }
+        .hero .badge { display: inline-block; margin-top: 20px; background: rgba(255,255,255,0.15); padding: 6px 16px; border-radius: 20px; font-size: 0.85rem; }
+
+        .container { max-width: 720px; margin: 0 auto; padding: 0 24px; }
+
+        .section { padding: 56px 0; }
+        .section h2 { font-size: 1.6rem; font-weight: 700; margin-bottom: 24px; color: #1a1a2e; }
+        .section p { margin-bottom: 16px; color: #444; }
+
+        .features { list-style: none; display: grid; grid-template-columns: 1fr 1fr; gap: 20px; }
+        .features li {
+            background: #fff;
+            border: 1px solid #e5e7eb;
+            border-radius: 12px;
+            padding: 24px;
+        }
+        .features li strong { display: block; margin-bottom: 4px; color: #4F46E5; }
+        .features li span { font-size: 0.92rem; color: #555; }
+
+        .cta-row { text-align: center; margin-top: 40px; }
+        .cta-btn {
+            display: inline-block;
+            background: #4F46E5;
+            color: #fff;
+            padding: 14px 36px;
+            border-radius: 10px;
+            font-size: 1.05rem;
+            font-weight: 600;
+            transition: background 0.2s;
+        }
+        .cta-btn:hover { background: #4338ca; text-decoration: none; }
+
+        .pricing-box {
+            background: #fff;
+            border: 2px solid #4F46E5;
+            border-radius: 14px;
+            padding: 32px;
+            text-align: center;
+        }
+        .pricing-box .price { font-size: 2rem; font-weight: 700; color: #4F46E5; }
+        .pricing-box .price-note { font-size: 0.9rem; color: #666; margin-top: 4px; }
+
+        .footer {
+            text-align: center;
+            padding: 40px 24px;
+            font-size: 0.85rem;
+            color: #888;
+            border-top: 1px solid #e5e7eb;
+        }
+        .footer a { color: #4F46E5; }
+        .footer nav { margin-bottom: 12px; }
+        .footer nav a { margin: 0 12px; }
+
+        @media (max-width: 600px) {
+            .hero h1 { font-size: 2rem; }
+            .features { grid-template-columns: 1fr; }
+        }
+    </style>
+</head>
+<body>
+
+<header class="hero">
+    <h1>BreathFlow</h1>
+    <p class="tagline">Science-backed breathing. No subscription. No fluff.</p>
+    <span class="badge">Health &amp; Fitness</span>
+</header>
+
+<main class="container">
+    <section class="section">
+        <h2>What is BreathFlow?</h2>
+        <p>BreathFlow guides you through 10 proven breathing techniques with an animated circle, haptic feedback, and calming sounds. Whether you want to reduce stress, fall asleep faster, or sharpen your focus, there is a technique for you.</p>
+        <p>Three techniques are free forever. Unlock the full library of 10 techniques with a single, one-time purchase &mdash; no subscriptions, no recurring charges, no ads.</p>
+    </section>
+
+    <section class="section">
+        <h2>Techniques</h2>
+        <ul class="features">
+            <li><strong>Box Breathing</strong><span>Equal inhale-hold-exhale-hold cycle used by Navy SEALs to stay calm under pressure.</span></li>
+            <li><strong>4-7-8 Breathing</strong><span>Dr. Weil's relaxation technique: inhale 4 s, hold 7 s, exhale 8 s. Great for sleep.</span></li>
+            <li><strong>Physiological Sigh</strong><span>Double inhale through the nose, long exhale. The fastest science-backed way to lower stress in real time.</span></li>
+            <li><strong>+ 7 Premium Techniques</strong><span>Wim Hof, Alternate Nostril, Buteyko, and more &mdash; unlocked once with a single purchase.</span></li>
+        </ul>
+    </section>
+
+    <section class="section">
+        <h2>Features</h2>
+        <ul class="features">
+            <li><strong>Animated Guide</strong><span>A smooth breathing circle expands and contracts so you never lose your rhythm.</span></li>
+            <li><strong>Haptic Feedback</strong><span>Gentle vibrations mark each phase, so you can close your eyes and still follow along.</span></li>
+            <li><strong>Calming Sounds</strong><span>Optional ambient sounds to help you settle into each session.</span></li>
+            <li><strong>Zero Data Collection</strong><span>No accounts, no analytics, no ads. Everything stays on your device.</span></li>
+        </ul>
+    </section>
+
+    <section class="section">
+        <h2>Pricing</h2>
+        <div class="pricing-box">
+            <div class="price">Free + $6.99</div>
+            <p class="price-note">One-time premium unlock. No subscription. No hidden fees.</p>
+        </div>
+    </section>
+
+    <div class="cta-row">
+        <a href="#" class="cta-btn">Download on the App Store</a>
+    </div>
+</main>
+
+<footer class="footer">
+    <nav>
+        <a href="privacy.html">Privacy Policy</a>
+        <a href="support.html">Support</a>
+    </nav>
+    <p>&copy; 2026 Yaroslav Shevchenko. All rights reserved.</p>
+</footer>
+
+</body>
+</html>
